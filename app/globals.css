@@ -332,6 +332,69 @@ ul li {
         margin: 0 0 10px;
     }
 }
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white h6,
+.white li,
+.white p,
+.white a,
+.white span {
+    color: var(--white);
+}
+.white a:hover {
+    color: var(--primary);
+}
+.btn_holder {
+    margin-top: 40px;
+}
+  
+.my_btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 40px;
+    min-width: inherit;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: var(--primary);
+    text-align: center;
+    text-transform: capitalize;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-radius: 30px;
+    border: 1px solid var(--primary);
+}
+.my_btn:hover{
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+.my_btn.white_border {
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid var(--white);
+    line-height: 26px;
+}
+.my_btn.white_border:hover,
+.my_btn.white_border:focus {
+   color: var(--black);
+   border: 1px solid var(--black);
+}
 .fit_img {
   position: relative;
   width: 100%;
@@ -344,6 +407,33 @@ ul li {
   height: 100%;
   object-fit: cover;
   transition: all .4s ease-in-out;
+}
+.sections {
+    padding: 50px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.section_title{
+    position: relative;
+    text-align: center;
+}
+.section_title h2{
+    -webkit-text-stroke: 1px #dee2e6;
+    color: var(--white);
+    font-size: 10em;
+    text-transform: uppercase;
+}
+.sub_title{
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 /* Comman Style end */
 
