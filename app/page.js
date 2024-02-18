@@ -19,6 +19,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-7 col-lg-6">
                     <div className="caption">
+                      
                       <span>I'm</span>
                       <h1>Bhautik Godhaniya</h1>
                       <h2>Frontend Developer</h2>
@@ -143,7 +144,7 @@ export default function Home() {
               <h2>SKILLS</h2>
               <p className="sub_title">MY SKILLS</p>
             </div>
-            <div className="row">
+            <div className="row tb_sapace">
               <div className="col-lg-3">
                 <div className="skill">
                     <div className="fit_img icon">
