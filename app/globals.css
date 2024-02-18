@@ -501,3 +501,62 @@ ul li {
   }
 }
 /* Billboard Section End */
+
+/* Education Section Start */
+.edu_section h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.edu_section h3 svg{
+    font-size: 35px;
+}
+.education{
+    border-left: 1px solid var(--primary);
+    padding: 20px;
+}
+
+.edu_box{
+    position: relative;
+    padding: 20px 0;
+}
+.edu_box svg{
+    fill: var(--primary);
+    font-size: 26px;
+    position: absolute;
+    left: -34px;
+}
+.edu_box h5{
+    margin-bottom: 5px;
+}
+.edu_box p{
+    font-size: 18px;
+}
+.edu_box p strong{
+    font-weight: 500;
+}
+.edu_box p:last-child{
+    margin-bottom: 0;
+}
+/* Education Section End */
+
+/* Skills Section Start */
+.skill{
+    text-align: center;
+}
+.skill .icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.skill .icon img{
+
+    
+}
+.skill h3{
+    margin: 20px 0 0 0;
+}
+
+
+
+/* Skills Section End */
